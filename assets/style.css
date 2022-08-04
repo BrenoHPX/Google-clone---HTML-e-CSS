@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color:#202124;
+    font-size:13px ;
+    overflow-y:hidden;
+}
+header {
+    color: #e8eaed;
+    font-family: arial,sans-serif;
+    padding: 10px;
+    text-align: right;
+}
+
+header a{
+    text-decoration: none;
+    position: relative;
+    top: -15px;
+    padding: 6px; 
+}
+
+header a:hover{
+    text-decoration: underline;
+    position: relative;
+    top: -15px;
+    padding: 6px; 
+}
+
+a:link{
+    color: inherit;
+}
+a:visited{
+    color: inherit;
+}
+
+picture{
+    padding-left: 18px;
+}
+
+.menu{
+    align-content: center;
+    display: inline;
+}
+
+.menu2{
+    display: inline;
+}
+
+header svg {
+    width: 25px;
+    opacity: 0.9;
+    padding: 7px;
+}
+
+header svg:hover {
+    width: 25px;
+    padding: 7px;
+    background-color: #bdc1c615;
+    border-radius: 100%;
+    z-index: 2;
+}
+
+header img {
+    width: 30px;
+    padding: 5px;
+}
+
+#foto_de_perfil{
+    border-radius: 100%;
+}
+
+.div-logo{
+    height: 119px;
+}
+#logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;    
+    object-position: center bottom;
+    height: 92px;
+    margin-top: 58px;
+}
+
+
+.div-pesquisa{
+    height: 44px;
+    background: #202124;
+    border: 1px solid #5f6368;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: 582px;
+}
+
+.div-pesquisa:hover{
+    height: 44px;
+    background: #303134;
+    border: 1px solid #303134;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: 582px;
+}
+
+
+
+.barra-pesquisa{
+    height: 30px;
+    background-color: transparent;
+    width: 501px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #e8eaed;
+    top: -7px;
+    position: relative;
+}
+
+#lupa{
+    width: 20px;
+    fill: #9aa0a6ff;
+    opacity: 0.9;
+    padding-left: 14px;
+    padding-bottom: 3px;
+}
+#mic{
+    width: 24px;
+    margin: 10px 0 0 0;
+}
+
+.div-button {
+    display: table;
+    margin: auto;
+    padding: 10px;
+}
+
+.button {
+    background-color: #303134;
+    border: 1px solid #303134;
+    border-radius: 4px;
+    color: #e8eaed;
+    font-size: 14px;
+    margin: 18px 6px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #303134;
+    border: 1px solid #5f6368;
+    border-radius: 4px;
+    color: #e8eaed;
+    font-size: 14px;
+    margin: 18px 6px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+}
+
+
+.idioma{
+    font-family: arial,sans-serif;
+    font-size: small;
+    color: #bdc1c6;
+    margin-bottom: 222px;
+}
+
+.idioma a {
+    text-decoration: none;
+    color: #8ab4f8;
+}
+
+.idioma p {
+    text-align: center;
+    color: #bdc1c6;
+}
+
+.idioma p a:hover {
+    text-align: center;
+    color: #8ab4f8;
+    text-decoration: underline;
+}
+
+footer{
+    background-color: #171717;
+    color: #9aa0a6;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#brazil{
+    border-bottom: 1px #3c4043 solid;
+    text-align: left;
+    padding: 15px 30px;
+}
+
+#menu-footer ul{
+    display: inline-block;
+    padding: 5px 0;
+}
+
+
+#menu-footer ul li{
+    display: inline-block;
+    padding: 12px;
+    font-size: 14px;
+}
+
+#menu-footer ul li:hover{
+    display: inline-block;
+    padding: 12px;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+#item1 {
+    position: relative;
+    left: 24px;
+  }
+  
+#item2 {
+    position: relative;
+    right: -910px;
+  }
